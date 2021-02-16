@@ -105,6 +105,7 @@ const appConfig = assign({}, appCfg, {
  *
  * const plugins = require('./plugins');
  */
+console.log(plugins);
 const appPlugins = {
     plugins: {
         ...plugins.plugins,

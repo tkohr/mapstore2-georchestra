@@ -225,7 +225,7 @@
       }
     },
     "plugins": {
-        "mobile": ["Header", {
+        "mobile": ["Header", "Sample", {
                 "name": "Map",
                 "cfg": {
                     "mapOptions": {
@@ -333,6 +333,7 @@
             "FeedbackMask"
         ],
         "desktop": [
+          "Sample",
           "Header",
           "Details",
           {

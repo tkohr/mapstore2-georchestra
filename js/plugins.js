@@ -114,7 +114,8 @@ module.exports = {
         // georchestra plugins
         NotAllowedPlugin: require('./plugins/NotAllowed').default,
         HeaderPlugin: require('./plugins/Header').default,
-        UserSessionPlugin: require('./plugins/UserSession').default
+        UserSessionPlugin: require('./plugins/UserSession').default,
+        SamplePlugin: require('./plugins/Sample').default
     },
     requires: {
         ReactSwipe: require('react-swipeable-views').default,
